@@ -1,0 +1,45 @@
+/* responsive.css — Media queries and layout adjustments for larger viewports */
+
+@media (max-width: 767px){
+  .hero{padding:20px 0 30px}
+  .hero-badge{margin-bottom:8px}
+  .hero-title{margin-bottom:10px}
+  .hero-tagline{margin-bottom:18px}
+  .hero-ctas{margin-bottom:18px}
+  .tech-badges{margin-bottom:16px}
+  .hero-right{justify-content:center}
+  .profile-wrap{width:240px;height:240px}
+  .profile-photo{width:100%;height:100%}
+  .hero-right{margin-top:-20px}
+  .hero-right{position:relative;z-index:1}
+  .hero-right::after{content:"";display:block;height:30px;margin-top:-30px}
+}
+
+@media (min-width: 600px){
+  .hero-title{font-size:2.4rem}
+  .profile-wrap{width:260px;height:260px}
+}
+
+@media (min-width: 760px){
+  .projects-grid{grid-template-columns:repeat(2,1fr);gap:18px}
+}
+
+@media (min-width: 900px){
+  /* Desktop: show full nav, hide mobile toggle */
+  .nav{display:flex}
+  .nav-toggle{display:none}
+  .nav-links{gap:20px}
+  .header-inner{min-height:70px}
+
+  /* Hero becomes two-column */
+  .hero-grid{grid-template-columns:1fr 360px;align-items:center}
+  .hero-left{padding-right:24px}
+
+  /* Skills: 2 columns */
+  .skills-compact{display:flex;gap:24px}
+}
+
+@media (min-width:1200px){
+  .hero-title{font-size:3rem}
+  .container{max-width:1200px}
+}
