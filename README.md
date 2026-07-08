@@ -1,42 +1,83 @@
-# Isaac Zachariah — Portfolio
+# Isaac Zachariah Portfolio
 
-A handcrafted, professional frontend developer portfolio (dark theme).
+![Portfolio Preview](assets/images/homepage.png)
 
-Tech: HTML5 · CSS3 · JavaScript · Bootstrap (utilities) · Mobile-first · Vercel-ready
+## Live Website
 
-Project structure
+**Portfolio:** https://isaacportfolioo.netlify.app
 
-portfolio/
-│── index.html
-│── contact.html
-│── README.md
-│── assets/
-│   ├── images/
-│   ├── icons/
-│   └── cv/
-│── css/
-│   ├── style.css
-│   └── responsive.css
-│── js/
-│   └── script.js
+---
 
-Getting started
+## About
 
-- Open `index.html` in a browser for a quick preview.
-- The contact form is on `contact.html`.
-- Add or replace images in `assets/images/` (profile.svg, project-placeholder.svg).
-- Styles live in `css/style.css` (dark, tokenized) and `css/responsive.css` (breakpoints).
-- Interactive behavior goes in `js/script.js`.
+This is my personal portfolio website showcasing my skills, projects, and experience as a Frontend Developer. The website was designed with a modern, responsive, and user-friendly interface to provide recruiters and potential clients with an overview of my work.
 
-Deploying to Vercel
+---
 
-1. Create a Git repository and push this project.
-2. Log in to Vercel and import the repository (or run `vercel` from the project root).
-3. Vercel will detect a static site and deploy automatically.
+## Features
 
-Notes
+- Responsive design for all devices
+- Modern dark-themed UI
+- About Me section
+- Skills section
+- Featured Projects
+- Contact form powered by Formspree
+- Download CV
+- GitHub and LinkedIn integration
+- Smooth scrolling and animations
 
-- Mobile-first CSS and progressive enhancement are used: the site works without JavaScript.
-- Keep images optimized (WebP preferred) and provide `srcset` where applicable.
-- Ensure the PDF resume is placed at `assets/cv/Isaac_Zachariah_CV.pdf` for the download button.
-- To enable contact form persistence, configure Firebase and uncomment SDKs in `index.html`.
+---
+
+## Built With
+
+- HTML5
+- CSS3
+- JavaScript (ES6)
+- Bootstrap
+- Formspree
+
+---
+
+## Featured Projects
+
+- Eko Heritage Restaurant
+- Luxury Hair Empire
+- Green Valley University
+- Birthday Website
+- Shipping Website
+- Countdown Timer
+
+Each project includes GitHub repository links, and deployed projects also include live demo links.
+
+---
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/isaacbuildsgood/Portfolio-Website.git
+```
+
+Open the project folder and launch `index.html` in your browser.
+
+---
+
+## Contact
+
+Email: isaacdblessed4jesus@gmail.com
+
+LinkedIn:
+https://www.linkedin.com/in/isaac-zachariah-036a01400
+
+GitHub:
+https://github.com/isaacbuildsgood
+
+Portfolio:
+https://isaacportfolioo.netlify.app
+
+---
+
+## License
+
+This project is open source and available under the MIT License.
