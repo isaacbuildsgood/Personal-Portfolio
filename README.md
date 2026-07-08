@@ -1,6 +1,6 @@
 # Isaac Zachariah Portfolio
 
-![Portfolio Preview](assets/images/homepage.png)
+![Portfolio Preview](assets/images/homepage.jpeg)
 
 ## Live Website
 
