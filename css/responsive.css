@@ -21,6 +21,7 @@
 }
 
 @media (min-width: 760px){
+  .highlights-grid{grid-template-columns:repeat(2,1fr);gap:18px}
   .projects-grid{grid-template-columns:repeat(2,1fr);gap:18px}
 }
 
